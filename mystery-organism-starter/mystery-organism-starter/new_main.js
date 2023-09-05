@@ -12,7 +12,8 @@ const returnRandBase = () => {
     }
     return newStrand;
   };
-  // factory function to generate animal objects //
+  /* factory function to generate animal objects 
+  specimenNum is an integer, dna is return value of mockUpStrand */
   const pAequorFactory = (specimenNum, dna) => {
     return {
       specimenNum: specimenNum,
@@ -58,7 +59,7 @@ const returnRandBase = () => {
       },
     };
   };
-  
+
   // function to generate array of animals of size num //
   const generateAnimals = (num) => {
     let animalArray = [];
