@@ -60,7 +60,7 @@ const returnRandBase = () => {
     };
   };
 
-  // function to generate array of animals of size num //
+  // function to generate array of survivor animals of size num //
   const generateAnimals = (num) => {
     let animalArray = [];
     let i = 1;
