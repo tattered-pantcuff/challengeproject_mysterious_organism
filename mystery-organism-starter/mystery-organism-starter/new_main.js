@@ -12,7 +12,7 @@ const returnRandBase = () => {
     }
     return newStrand;
   };
-  
+  // factory function to generate animal objects //
   const pAequorFactory = (specimenNum, dna) => {
     return {
       specimenNum: specimenNum,
@@ -59,6 +59,7 @@ const returnRandBase = () => {
     };
   };
   
+  // function to generate array of animals of size num //
   const generateAnimals = (num) => {
     let animalArray = [];
     let i = 1;
