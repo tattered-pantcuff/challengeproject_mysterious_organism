@@ -1,3 +1,5 @@
+/* the following two functions are supplied starters */
+
 // Returns a random DNA base
 const returnRandBase = () => {
     const dnaBases = ["A", "T", "C", "G"];
