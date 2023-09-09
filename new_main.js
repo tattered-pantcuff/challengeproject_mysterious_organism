@@ -40,7 +40,7 @@ const returnRandBase = () => {
             }
           }
         } else console.log("Error, specimen DNA lengths do not match!");
-        console.log(sum);
+        //console.log(sum);
         let commonPerc = Math.floor((sum / 15) * 100);
         console.log(commonPerc);
         console.log(
@@ -78,3 +78,9 @@ const returnRandBase = () => {
   };
 
   //console.log(generateAnimals(5));
+  //console.log(mockUpStrand());
+const animalOne = pAequorFactory(1, mockUpStrand());
+const animalTwo = pAequorFactory(2, mockUpStrand());
+//console.log(animalOne.dna);
+//console.log(animalOne.willLikelySurvive());
+animalOne.compareDNA(animalTwo);
