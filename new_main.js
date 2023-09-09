@@ -76,3 +76,5 @@ const returnRandBase = () => {
     } while (i <= num);
     return animalArray;
   };
+
+  //console.log(generateAnimals(5));
